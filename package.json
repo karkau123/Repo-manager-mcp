@@ -1,0 +1,17 @@
+{
+  "name": "github-repos-manager-mcp",
+  "version": "1.0.0",
+  "description": "GitHub Repos Manager MCP — 89-tool GitHub API server for AI assistants",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node test-all-tools.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-cache": "^5.1.2"
+  }
+}
